@@ -53,7 +53,7 @@ def main():
             .join(RaiArticleDetail, RaiArticleDetail.id_rid == Rid.id)
             .join(Section, RaiArticleDetail.id_section == Section.id)
             .join(Conf, Section.id_conf == Conf.id)
-            .where(or_(Conf.short_title == "РИИ-2023"))
+            .where(or_(Conf.short_title == "РИИ-2020"))
         )
         results = session.execute(stmt).all()
 
@@ -95,7 +95,7 @@ def main():
         nodes_articles.append({
             "id": current_index,
             "prop": data["prop"],
-            "typeText": "A",
+            "typeText": "a",
             "numText": data["pages"].split(".")[-1],
             "type": "circle",
             "num": 1,

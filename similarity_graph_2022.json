@@ -3,13 +3,15 @@
     {
       "id": 0,
       "prop": 0,
-      "typeText": "A",
-      "numText": " 5-12",
+      "typeText": "a",
+      "numText": " 5-8",
       "type": "circle",
       "num": 1,
       "score": 1,
       "isBase": true,
-      "connections": [],
+      "connections": [
+        24
+      ],
       "secStart": true,
       "secEnd": true,
       "fontStyle": "normal",
@@ -25,8 +27,8 @@
     {
       "id": 1,
       "prop": 0,
-      "typeText": "A",
-      "numText": " 13-18",
+      "typeText": "a",
+      "numText": " 9-15",
       "type": "circle",
       "num": 1,
       "score": 1,
@@ -46,9 +48,9 @@
     },
     {
       "id": 2,
-      "prop": 1,
-      "typeText": "A",
-      "numText": " 20-25",
+      "prop": 0,
+      "typeText": "a",
+      "numText": " 16-21",
       "type": "circle",
       "num": 1,
       "score": 1,
@@ -64,21 +66,18 @@
       "secLength": 1,
       "grey": false,
       "yellow": false,
-      "sectorName": "СР"
+      "sectorName": "РКМ"
     },
     {
       "id": 3,
-      "prop": 1,
-      "typeText": "A",
-      "numText": " 26-31",
+      "prop": 0,
+      "typeText": "a",
+      "numText": " 22-29",
       "type": "circle",
       "num": 1,
       "score": 1,
       "isBase": true,
-      "connections": [
-        27,
-        28
-      ],
+      "connections": [],
       "secStart": true,
       "secEnd": true,
       "fontStyle": "normal",
@@ -89,13 +88,13 @@
       "secLength": 1,
       "grey": false,
       "yellow": false,
-      "sectorName": "СР"
+      "sectorName": "РКМ"
     },
     {
       "id": 4,
       "prop": 1,
-      "typeText": "A",
-      "numText": " 32-38",
+      "typeText": "a",
+      "numText": " 31-36",
       "type": "circle",
       "num": 1,
       "score": 1,
@@ -116,8 +115,8 @@
     {
       "id": 5,
       "prop": 1,
-      "typeText": "A",
-      "numText": " 39-44",
+      "typeText": "a",
+      "numText": " 37-42",
       "type": "circle",
       "num": 1,
       "score": 1,
@@ -138,8 +137,8 @@
     {
       "id": 6,
       "prop": 1,
-      "typeText": "A",
-      "numText": " 45-50",
+      "typeText": "a",
+      "numText": " 43-48",
       "type": "circle",
       "num": 1,
       "score": 1,
@@ -159,9 +158,9 @@
     },
     {
       "id": 7,
-      "prop": 2,
-      "typeText": "A",
-      "numText": " 59-66",
+      "prop": 1,
+      "typeText": "a",
+      "numText": " 49-57",
       "type": "circle",
       "num": 1,
       "score": 1,
@@ -177,20 +176,18 @@
       "secLength": 1,
       "grey": false,
       "yellow": false,
-      "sectorName": "БЗ"
+      "sectorName": "СР"
     },
     {
       "id": 8,
-      "prop": 2,
-      "typeText": "A",
-      "numText": " 52-58",
+      "prop": 1,
+      "typeText": "a",
+      "numText": " 58-63",
       "type": "circle",
       "num": 1,
       "score": 1,
       "isBase": true,
-      "connections": [
-        16
-      ],
+      "connections": [],
       "secStart": true,
       "secEnd": true,
       "fontStyle": "normal",
@@ -201,13 +198,13 @@
       "secLength": 1,
       "grey": false,
       "yellow": false,
-      "sectorName": "БЗ"
+      "sectorName": "СР"
     },
     {
       "id": 9,
       "prop": 2,
-      "typeText": "A",
-      "numText": " 67-73",
+      "typeText": "a",
+      "numText": " 65-70",
       "type": "circle",
       "num": 1,
       "score": 1,
@@ -227,65 +224,62 @@
     },
     {
       "id": 10,
+      "prop": 2,
+      "typeText": "a",
+      "numText": " 71-75",
+      "type": "circle",
+      "num": 1,
+      "score": 1,
+      "isBase": true,
+      "connections": [
+        28
+      ],
+      "secStart": true,
+      "secEnd": true,
+      "fontStyle": "normal",
+      "arrowOut": false,
+      "arrowIn": false,
+      "level": 0,
+      "isLabel": true,
+      "secLength": 1,
+      "grey": false,
+      "yellow": false,
+      "sectorName": "БЗ"
+    },
+    {
+      "id": 11,
+      "prop": 2,
+      "typeText": "a",
+      "numText": " 76-83",
+      "type": "circle",
+      "num": 1,
+      "score": 1,
+      "isBase": true,
+      "connections": [
+        34
+      ],
+      "secStart": true,
+      "secEnd": true,
+      "fontStyle": "normal",
+      "arrowOut": false,
+      "arrowIn": false,
+      "level": 0,
+      "isLabel": true,
+      "secLength": 1,
+      "grey": false,
+      "yellow": false,
+      "sectorName": "БЗ"
+    },
+    {
+      "id": 12,
       "prop": 3,
-      "typeText": "A",
-      "numText": " 75-79",
+      "typeText": "a",
+      "numText": " 85-93",
       "type": "circle",
       "num": 1,
       "score": 1,
       "isBase": true,
       "connections": [],
-      "secStart": true,
-      "secEnd": true,
-      "fontStyle": "normal",
-      "arrowOut": false,
-      "arrowIn": false,
-      "level": 0,
-      "isLabel": true,
-      "secLength": 1,
-      "grey": false,
-      "yellow": false,
-      "sectorName": "ИАД"
-    },
-    {
-      "id": 11,
-      "prop": 3,
-      "typeText": "A",
-      "numText": " 80-86",
-      "type": "circle",
-      "num": 1,
-      "score": 1,
-      "isBase": true,
-      "connections": [
-        19,
-        36
-      ],
-      "secStart": true,
-      "secEnd": true,
-      "fontStyle": "normal",
-      "arrowOut": false,
-      "arrowIn": false,
-      "level": 0,
-      "isLabel": true,
-      "secLength": 1,
-      "grey": false,
-      "yellow": false,
-      "sectorName": "ИАД"
-    },
-    {
-      "id": 12,
-      "prop": 3,
-      "typeText": "A",
-      "numText": " 87-91",
-      "type": "circle",
-      "num": 1,
-      "score": 1,
-      "isBase": true,
-      "connections": [
-        13,
-        16,
-        38
-      ],
       "secStart": true,
       "secEnd": true,
       "fontStyle": "normal",
@@ -301,16 +295,13 @@
     {
       "id": 13,
       "prop": 3,
-      "typeText": "A",
-      "numText": " 92-97",
+      "typeText": "a",
+      "numText": " 94-97",
       "type": "circle",
       "num": 1,
       "score": 1,
       "isBase": true,
-      "connections": [
-        12,
-        24
-      ],
+      "connections": [],
       "secStart": true,
       "secEnd": true,
       "fontStyle": "normal",
@@ -326,13 +317,15 @@
     {
       "id": 14,
       "prop": 3,
-      "typeText": "A",
-      "numText": " 98-104",
+      "typeText": "a",
+      "numText": " 98-102",
       "type": "circle",
       "num": 1,
       "score": 1,
       "isBase": true,
-      "connections": [],
+      "connections": [
+        32
+      ],
       "secStart": true,
       "secEnd": true,
       "fontStyle": "normal",
@@ -348,38 +341,14 @@
     {
       "id": 15,
       "prop": 3,
-      "typeText": "A",
-      "numText": " 105-108",
-      "type": "circle",
-      "num": 1,
-      "score": 1,
-      "isBase": true,
-      "connections": [],
-      "secStart": true,
-      "secEnd": true,
-      "fontStyle": "normal",
-      "arrowOut": false,
-      "arrowIn": false,
-      "level": 0,
-      "isLabel": true,
-      "secLength": 1,
-      "grey": false,
-      "yellow": false,
-      "sectorName": "ИАД"
-    },
-    {
-      "id": 16,
-      "prop": 3,
-      "typeText": "A",
-      "numText": " 109-113",
+      "typeText": "a",
+      "numText": " 103-108",
       "type": "circle",
       "num": 1,
       "score": 1,
       "isBase": true,
       "connections": [
-        8,
-        12,
-        38
+        17
       ],
       "secStart": true,
       "secEnd": true,
@@ -394,10 +363,10 @@
       "sectorName": "ИАД"
     },
     {
-      "id": 17,
-      "prop": 3,
-      "typeText": "A",
-      "numText": " 114-118",
+      "id": 16,
+      "prop": 4,
+      "typeText": "a",
+      "numText": " 110-113",
       "type": "circle",
       "num": 1,
       "score": 1,
@@ -413,13 +382,38 @@
       "secLength": 1,
       "grey": false,
       "yellow": false,
-      "sectorName": "ИАД"
+      "sectorName": "ИИ"
+    },
+    {
+      "id": 17,
+      "prop": 4,
+      "typeText": "a",
+      "numText": " 114-118",
+      "type": "circle",
+      "num": 1,
+      "score": 1,
+      "isBase": true,
+      "connections": [
+        15,
+        33
+      ],
+      "secStart": true,
+      "secEnd": true,
+      "fontStyle": "normal",
+      "arrowOut": false,
+      "arrowIn": false,
+      "level": 0,
+      "isLabel": true,
+      "secLength": 1,
+      "grey": false,
+      "yellow": false,
+      "sectorName": "ИИ"
     },
     {
       "id": 18,
       "prop": 4,
-      "typeText": "A",
-      "numText": " 148-153",
+      "typeText": "a",
+      "numText": " 119-125",
       "type": "circle",
       "num": 1,
       "score": 1,
@@ -439,17 +433,14 @@
     },
     {
       "id": 19,
-      "prop": 4,
-      "typeText": "A",
-      "numText": " 120-125",
+      "prop": 5,
+      "typeText": "a",
+      "numText": " 127-132",
       "type": "circle",
       "num": 1,
       "score": 1,
       "isBase": true,
-      "connections": [
-        11,
-        20
-      ],
+      "connections": [],
       "secStart": true,
       "secEnd": true,
       "fontStyle": "normal",
@@ -460,20 +451,18 @@
       "secLength": 1,
       "grey": false,
       "yellow": false,
-      "sectorName": "ИИ"
+      "sectorName": "УР"
     },
     {
       "id": 20,
-      "prop": 4,
-      "typeText": "A",
-      "numText": " 126-131",
+      "prop": 5,
+      "typeText": "a",
+      "numText": " 133-137",
       "type": "circle",
       "num": 1,
       "score": 1,
       "isBase": true,
-      "connections": [
-        19
-      ],
+      "connections": [],
       "secStart": true,
       "secEnd": true,
       "fontStyle": "normal",
@@ -484,13 +473,13 @@
       "secLength": 1,
       "grey": false,
       "yellow": false,
-      "sectorName": "ИИ"
+      "sectorName": "УР"
     },
     {
       "id": 21,
-      "prop": 4,
-      "typeText": "A",
-      "numText": " 132-135",
+      "prop": 5,
+      "typeText": "a",
+      "numText": " 138-143",
       "type": "circle",
       "num": 1,
       "score": 1,
@@ -506,13 +495,13 @@
       "secLength": 1,
       "grey": false,
       "yellow": false,
-      "sectorName": "ИИ"
+      "sectorName": "УР"
     },
     {
       "id": 22,
-      "prop": 4,
-      "typeText": "A",
-      "numText": " 136-141",
+      "prop": 5,
+      "typeText": "a",
+      "numText": " 144-149",
       "type": "circle",
       "num": 1,
       "score": 1,
@@ -528,13 +517,13 @@
       "secLength": 1,
       "grey": false,
       "yellow": false,
-      "sectorName": "ИИ"
+      "sectorName": "УР"
     },
     {
       "id": 23,
-      "prop": 4,
-      "typeText": "A",
-      "numText": " 142-147",
+      "prop": 5,
+      "typeText": "a",
+      "numText": " 150-156",
       "type": "circle",
       "num": 1,
       "score": 1,
@@ -550,19 +539,19 @@
       "secLength": 1,
       "grey": false,
       "yellow": false,
-      "sectorName": "ИИ"
+      "sectorName": "УР"
     },
     {
       "id": 24,
-      "prop": 4,
-      "typeText": "A",
-      "numText": " 154-158",
+      "prop": 5,
+      "typeText": "a",
+      "numText": " 157-162",
       "type": "circle",
       "num": 1,
       "score": 1,
       "isBase": true,
       "connections": [
-        13
+        0
       ],
       "secStart": true,
       "secEnd": true,
@@ -574,13 +563,13 @@
       "secLength": 1,
       "grey": false,
       "yellow": false,
-      "sectorName": "ИИ"
+      "sectorName": "УР"
     },
     {
       "id": 25,
-      "prop": 4,
-      "typeText": "A",
-      "numText": " 159-164",
+      "prop": 5,
+      "typeText": "a",
+      "numText": " 163-168",
       "type": "circle",
       "num": 1,
       "score": 1,
@@ -596,20 +585,18 @@
       "secLength": 1,
       "grey": false,
       "yellow": false,
-      "sectorName": "ИИ"
+      "sectorName": "УР"
     },
     {
       "id": 26,
       "prop": 5,
-      "typeText": "A",
-      "numText": " 166-170",
+      "typeText": "a",
+      "numText": " 169-173",
       "type": "circle",
       "num": 1,
       "score": 1,
       "isBase": true,
-      "connections": [
-        27
-      ],
+      "connections": [],
       "secStart": true,
       "secEnd": true,
       "fontStyle": "normal",
@@ -625,18 +612,13 @@
     {
       "id": 27,
       "prop": 5,
-      "typeText": "A",
-      "numText": " 171-176",
+      "typeText": "a",
+      "numText": " 174-178",
       "type": "circle",
       "num": 1,
       "score": 1,
       "isBase": true,
-      "connections": [
-        3,
-        26,
-        28,
-        36
-      ],
+      "connections": [],
       "secStart": true,
       "secEnd": true,
       "fontStyle": "normal",
@@ -652,15 +634,14 @@
     {
       "id": 28,
       "prop": 5,
-      "typeText": "A",
-      "numText": " 177-182",
+      "typeText": "a",
+      "numText": " 179-184",
       "type": "circle",
       "num": 1,
       "score": 1,
       "isBase": true,
       "connections": [
-        3,
-        27
+        10
       ],
       "secStart": true,
       "secEnd": true,
@@ -677,15 +658,13 @@
     {
       "id": 29,
       "prop": 5,
-      "typeText": "A",
-      "numText": " 189-194",
+      "typeText": "a",
+      "numText": " 185-190",
       "type": "circle",
       "num": 1,
       "score": 1,
       "isBase": true,
-      "connections": [
-        30
-      ],
+      "connections": [],
       "secStart": true,
       "secEnd": true,
       "fontStyle": "normal",
@@ -700,16 +679,14 @@
     },
     {
       "id": 30,
-      "prop": 5,
-      "typeText": "A",
-      "numText": " 195-200",
+      "prop": 6,
+      "typeText": "a",
+      "numText": " 192-197",
       "type": "circle",
       "num": 1,
       "score": 1,
       "isBase": true,
-      "connections": [
-        29
-      ],
+      "connections": [],
       "secStart": true,
       "secEnd": true,
       "fontStyle": "normal",
@@ -720,18 +697,20 @@
       "secLength": 1,
       "grey": false,
       "yellow": false,
-      "sectorName": "УР"
+      "sectorName": "ОИИ"
     },
     {
       "id": 31,
-      "prop": 5,
-      "typeText": "A",
-      "numText": " 201-206",
+      "prop": 6,
+      "typeText": "a",
+      "numText": " 198-203",
       "type": "circle",
       "num": 1,
       "score": 1,
       "isBase": true,
-      "connections": [],
+      "connections": [
+        33
+      ],
       "secStart": true,
       "secEnd": true,
       "fontStyle": "normal",
@@ -742,18 +721,20 @@
       "secLength": 1,
       "grey": false,
       "yellow": false,
-      "sectorName": "УР"
+      "sectorName": "ОИИ"
     },
     {
       "id": 32,
-      "prop": 5,
-      "typeText": "A",
-      "numText": " 207-212",
+      "prop": 6,
+      "typeText": "a",
+      "numText": " 204-208",
       "type": "circle",
       "num": 1,
       "score": 1,
       "isBase": true,
-      "connections": [],
+      "connections": [
+        14
+      ],
       "secStart": true,
       "secEnd": true,
       "fontStyle": "normal",
@@ -764,18 +745,21 @@
       "secLength": 1,
       "grey": false,
       "yellow": false,
-      "sectorName": "УР"
+      "sectorName": "ОИИ"
     },
     {
       "id": 33,
-      "prop": 5,
-      "typeText": "A",
-      "numText": " 213-218",
+      "prop": 6,
+      "typeText": "a",
+      "numText": " 209-212",
       "type": "circle",
       "num": 1,
       "score": 1,
       "isBase": true,
-      "connections": [],
+      "connections": [
+        17,
+        31
+      ],
       "secStart": true,
       "secEnd": true,
       "fontStyle": "normal",
@@ -786,134 +770,20 @@
       "secLength": 1,
       "grey": false,
       "yellow": false,
-      "sectorName": "УР"
+      "sectorName": "ОИИ"
     },
     {
       "id": 34,
-      "prop": 5,
-      "typeText": "A",
-      "numText": " 219-222",
-      "type": "circle",
-      "num": 1,
-      "score": 1,
-      "isBase": true,
-      "connections": [],
-      "secStart": true,
-      "secEnd": true,
-      "fontStyle": "normal",
-      "arrowOut": false,
-      "arrowIn": false,
-      "level": 0,
-      "isLabel": true,
-      "secLength": 1,
-      "grey": false,
-      "yellow": false,
-      "sectorName": "УР"
-    },
-    {
-      "id": 35,
-      "prop": 5,
-      "typeText": "A",
-      "numText": " 223-228",
-      "type": "circle",
-      "num": 1,
-      "score": 1,
-      "isBase": true,
-      "connections": [],
-      "secStart": true,
-      "secEnd": true,
-      "fontStyle": "normal",
-      "arrowOut": false,
-      "arrowIn": false,
-      "level": 0,
-      "isLabel": true,
-      "secLength": 1,
-      "grey": false,
-      "yellow": false,
-      "sectorName": "УР"
-    },
-    {
-      "id": 36,
-      "prop": 5,
-      "typeText": "A",
-      "numText": " 229-233",
+      "prop": 6,
+      "typeText": "a",
+      "numText": " 213-219",
       "type": "circle",
       "num": 1,
       "score": 1,
       "isBase": true,
       "connections": [
-        11,
-        27
+        11
       ],
-      "secStart": true,
-      "secEnd": true,
-      "fontStyle": "normal",
-      "arrowOut": false,
-      "arrowIn": false,
-      "level": 0,
-      "isLabel": true,
-      "secLength": 1,
-      "grey": false,
-      "yellow": false,
-      "sectorName": "УР"
-    },
-    {
-      "id": 37,
-      "prop": 6,
-      "typeText": "A",
-      "numText": " 235-240",
-      "type": "circle",
-      "num": 1,
-      "score": 1,
-      "isBase": true,
-      "connections": [],
-      "secStart": true,
-      "secEnd": true,
-      "fontStyle": "normal",
-      "arrowOut": false,
-      "arrowIn": false,
-      "level": 0,
-      "isLabel": true,
-      "secLength": 1,
-      "grey": false,
-      "yellow": false,
-      "sectorName": "ОИИ"
-    },
-    {
-      "id": 38,
-      "prop": 6,
-      "typeText": "A",
-      "numText": " 241-246",
-      "type": "circle",
-      "num": 1,
-      "score": 1,
-      "isBase": true,
-      "connections": [
-        12,
-        16
-      ],
-      "secStart": true,
-      "secEnd": true,
-      "fontStyle": "normal",
-      "arrowOut": false,
-      "arrowIn": false,
-      "level": 0,
-      "isLabel": true,
-      "secLength": 1,
-      "grey": false,
-      "yellow": false,
-      "sectorName": "ОИИ"
-    },
-    {
-      "id": 39,
-      "prop": 6,
-      "typeText": "A",
-      "numText": " 247-250",
-      "type": "circle",
-      "num": 1,
-      "score": 1,
-      "isBase": true,
-      "connections": [],
       "secStart": true,
       "secEnd": true,
       "fontStyle": "normal",
@@ -929,7 +799,7 @@
   ],
   [
     {
-      "id": 40,
+      "id": 35,
       "prop": 0,
       "typeText": "P",
       "numText": "РКМ",
@@ -945,13 +815,13 @@
       "arrowIn": false,
       "level": 1,
       "isLabel": true,
-      "secLength": 2,
+      "secLength": 4,
       "grey": false,
       "yellow": false,
       "sectorName": "РКМ"
     },
     {
-      "id": 41,
+      "id": 36,
       "prop": 1,
       "typeText": "P",
       "numText": "СР",
@@ -973,7 +843,7 @@
       "sectorName": "СР"
     },
     {
-      "id": 42,
+      "id": 37,
       "prop": 2,
       "typeText": "P",
       "numText": "БЗ",
@@ -995,7 +865,7 @@
       "sectorName": "БЗ"
     },
     {
-      "id": 43,
+      "id": 38,
       "prop": 3,
       "typeText": "P",
       "numText": "ИАД",
@@ -1011,13 +881,13 @@
       "arrowIn": false,
       "level": 1,
       "isLabel": true,
-      "secLength": 8,
+      "secLength": 4,
       "grey": false,
       "yellow": false,
       "sectorName": "ИАД"
     },
     {
-      "id": 44,
+      "id": 39,
       "prop": 4,
       "typeText": "P",
       "numText": "ИИ",
@@ -1033,13 +903,13 @@
       "arrowIn": false,
       "level": 1,
       "isLabel": true,
-      "secLength": 8,
+      "secLength": 3,
       "grey": false,
       "yellow": false,
       "sectorName": "ИИ"
     },
     {
-      "id": 45,
+      "id": 40,
       "prop": 5,
       "typeText": "P",
       "numText": "УР",
@@ -1061,7 +931,7 @@
       "sectorName": "УР"
     },
     {
-      "id": 46,
+      "id": 41,
       "prop": 6,
       "typeText": "P",
       "numText": "ОИИ",
@@ -1077,7 +947,7 @@
       "arrowIn": false,
       "level": 1,
       "isLabel": true,
-      "secLength": 3,
+      "secLength": 5,
       "grey": false,
       "yellow": false,
       "sectorName": "ОИИ"
@@ -1085,10 +955,10 @@
   ],
   [
     {
-      "id": 47,
+      "id": 42,
       "prop": 0,
       "typeText": "C",
-      "numText": "РИИ-2023",
+      "numText": "РИИ-2022",
       "type": "circle",
       "num": 1,
       "score": 1,
@@ -1101,10 +971,10 @@
       "arrowIn": false,
       "level": 2,
       "isLabel": true,
-      "secLength": 40,
+      "secLength": 35,
       "grey": false,
       "yellow": false,
-      "sectorName": "РИИ-2023"
+      "sectorName": "РИИ-2022"
     }
   ]
 ]
